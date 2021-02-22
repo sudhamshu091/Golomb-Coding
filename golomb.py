@@ -1,8 +1,8 @@
 import math
 
 def golomb(codeword,m):
-    c = int(math.ceil(math.log(m,2)))
-    reminder = codeword%m
+    c = int(math.ceil(math.log(m,2)))  # for the formulas refer wikipedia page link in the readme file
+    reminder = codeword%m              
     quotent = int(math.floor(codeword/m))
     print("c",c,"Reminder",reminder,"Quotent",quotent)
     div = int(math.pow(2,c)-m)
