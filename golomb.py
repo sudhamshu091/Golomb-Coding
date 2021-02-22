@@ -1,4 +1,5 @@
 import math
+
 def golomb(codeword,m):
     c = int(math.ceil(math.log(m,2)))
     reminder = codeword%m
