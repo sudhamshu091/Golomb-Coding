@@ -25,5 +25,5 @@ def golomb(codeword,m):
     final = first + "0" + str(binary)
     return final
 
-golombcode = golomb(codeword,m) # golomb(18,16)
+golombcode = golomb(codeword,m)  # golomb(18,16)
 print("Golomb Coding:",golombcode)
